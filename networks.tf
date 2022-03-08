@@ -5,7 +5,7 @@ locals {
   cidr_prefix = join(".", [local.cidr_split[0], local.cidr_split[1], local.cidr_major])
 }
 
-module "this" {
+module "networks" {
   source  = "jakoberpf/base-network/zerotier"
   version = "0.0.1"
 
