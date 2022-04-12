@@ -11,6 +11,6 @@ module "networks" {
 
   for_each = toset(var.networks)
 
-  name = "zelos-${each.value}-${random_string.deployment_id.result}"
+  name = "${var.name}-${each.value}-${random_string.deployment_id.result}"
   cidr = join("", [local.cidr_prefix, index(var.networks, each.value)]) # TODO make "XXX.XXX.XXX" to "XXX.XXX.XXX.XXX/YY"
 }
