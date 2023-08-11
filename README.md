@@ -19,7 +19,7 @@ This module provisions a zerotier cluster network.
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_networks"></a> [networks](#module\_networks) | jakoberpf/base-network/zerotier | 0.0.1 |
+| <a name="module_networks"></a> [networks](#module\_networks) | jakoberpf/base-network/zerotier | 0.0.2 |
 
 ## Resources
 
