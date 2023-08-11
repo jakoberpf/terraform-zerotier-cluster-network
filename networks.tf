@@ -7,7 +7,7 @@ locals {
 
 module "networks" {
   source  = "jakoberpf/base-network/zerotier"
-  version = "0.0.1"
+  version = "0.0.2"
 
   for_each = toset(var.networks)
 
