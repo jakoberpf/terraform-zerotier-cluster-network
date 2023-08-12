@@ -7,7 +7,7 @@ This module provisions a zerotier cluster network.
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_zerotier"></a> [zerotier](#requirement\_zerotier) | 1.2.0 |
+| <a name="requirement_zerotier"></a> [zerotier](#requirement\_zerotier) | 1.4.2 |
 
 ## Providers
 
